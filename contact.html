@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <!--------- <title>Responsive Navigation Menu</title>------>
+    <link rel="stylesheet" href="assets/css/libs/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/libs/all.min.css" />
+    <link rel="stylesheet" href="assets/css/libs/fontawesome.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <!-- Start Header -->
+    <header class="header">
+      <nav>
+        <div class="logo" id="h1">AhmedQandil</div>
+        <input type="checkbox" id="click" />
+        <label for="click" class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+          <li><a href="index.html">About</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="login_singup.html">Log In</a></li>
+          <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container container1 contactt">
+        <div class="section-title">
+          <span>Contact Us</span>
+          <h2>Feel Free to Contact With Us</h2>
+          <p>
+            Sit sint consectetur velit quisquam cupiditate impedit suscipit
+            alias
+          </p>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-6">
+            <div class="info-box mb-4">
+              <i class="fa-solid fa-map"></i>
+              <h3>Our Address</h3>
+              <p>Egypt - Tanta - El-galla - Street of MeetHibish</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="info-box mb-4">
+              <i class="fa-solid fa-envelope"></i>
+              <h3>Email Us</h3>
+              <p>ahmadan@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="info-box mb-4">
+              <i class="fa-solid fa-phone"></i>
+              <h3>Call Us</h3>
+              <p>+201024428374</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-6">
+            <iframe
+              class="mb-4 mb-lg-0"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d219313.09555361845!2d30.849756583468523!3d30.80916446604947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f634d221ee38e1%3A0x4573d42aa0c2ac76!2sTanta%2C%20Gharbia%20Governorate!5e0!3m2!1sen!2seg!4v1650806381204!5m2!1sen!2seg"
+              style="border: 0; width: 100%; height: 384px"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+
+          <div class="col-lg-6">
+            <form
+              action="forms/contact.php"
+              method="post"
+              role="form"
+              class="php-email-form"
+            >
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input
+                    type="text"
+                    name="name"
+                    class="form-control"
+                    id="name"
+                    placeholder="Your Name"
+                    required
+                  />
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input
+                    type="email"
+                    class="form-control"
+                    name="email"
+                    id="email"
+                    placeholder="Your Email"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  name="subject"
+                  id="subject"
+                  placeholder="Subject"
+                  required
+                />
+              </div>
+              <div class="form-group mt-3">
+                <textarea
+                  id="textArea"
+                  class="form-control"
+                  name="message"
+                  rows="5"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <div class="text-center">
+                <button type="submit">Send Message</button>
+              </div>
+            </form>
+            <div class="mt-5 mb-5 text-center btn btn-danger" style="margin-left: 117px;">
+              <button id="sectionbg">Change TextAreaBg Color</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Section -->
+
+    <nav aria-label="Page navigation example">
+      <ul class="pagination">
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+          </a>
+        </li>
+        <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+        <li class="page-item">
+          <a class="page-link" href="login_singup.html">2</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="contact.html">3</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Js Files -->
+    <script src="assets/js/libs/jq3.5.1.js"></script>
+    <script src="assets/js/libs/popper.js"></script>
+    <script src="assets/js/libs/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/changeBg.js"></script>
+    <script src="assets/js/AutoWriting.js"></script>
+  </body>
+</html>

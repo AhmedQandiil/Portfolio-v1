@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!--------- <title>Responsive Navigation Menu</title>------>
+    <link rel="stylesheet" href="assets/css/libs/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/libs/all.min.css" />
+    <link rel="stylesheet" href="assets/css/libs/fontawesome.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <!-- Start Header -->
+    <header class="header">
+      <nav>
+        <div class="logo" id="h1">AhmedQandil</div>
+        <input type="checkbox" id="click" />
+        <label for="click" class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+          <li><a href="index.html">About</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a class="active" href="login_singup.html">Log In</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- End Header -->
+    <div class="container container1">
+      <div class="forms">
+        <div class="form login">
+          <span class="title">Login</span>
+
+          <form action="#">
+            <div class="input-field">
+              <input type="text" placeholder="Enter your email" required />
+              <i class="fa fa-envelope"></i>
+            </div>
+            <div class="input-field">
+              <input
+                type="password"
+                class="password"
+                placeholder="Enter your password"
+                required
+              />
+              <i class="fa-solid fa-lock"></i>
+              <i class="fa-solid fa-eye-slash showHidePw"></i>
+            </div>
+
+            <div class="checkbox-text">
+              <div class="checkbox-content">
+                <input type="checkbox" id="logCheck" />
+                <label for="logCheck" class="text">Remember me</label>
+              </div>
+
+              <a href="#" class="text">Forgot password?</a>
+            </div>
+
+            <div class="input-field button">
+              <input type="button" value="Login Now" />
+            </div>
+          </form>
+
+          <div class="login-signup">
+            <span class="text"
+              >Not a member?
+              <a href="#" class="text signup-link">Signup now</a>
+            </span>
+          </div>
+        </div>
+
+        <!-- Registration Form -->
+        <div class="form signup">
+          <span class="title">Registration</span>
+
+          <form action="#">
+            <div class="input-field">
+              <input type="text" placeholder="Enter your name" required />
+              <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="input-field">
+              <input type="text" placeholder="Enter your email" required />
+              <i class="fa-solid fa-envelope icon"></i>
+            </div>
+            <div class="input-field">
+              <input
+                type="password"
+                class="password"
+                placeholder="Create a password"
+                required
+              />
+              <i class="fa-solid fa-lock icon"></i>
+            </div>
+            <div class="input-field">
+              <input
+                type="password"
+                class="password"
+                placeholder="Confirm a password"
+                required
+              />
+              <i class="fa-solid fa-lock icon"></i>
+              <i class="fa-solid fa-eye-slash showHidePw"></i>
+            </div>
+
+            <div class="checkbox-text">
+              <div class="checkbox-content">
+                <input type="checkbox" id="sigCheck" />
+                <label for="sigCheck" class="text">Remember me</label>
+              </div>
+
+              <a href="#" class="text">Forgot password?</a>
+            </div>
+
+            <div class="input-field button">
+              <input type="button" value="Login Now" />
+            </div>
+          </form>
+
+          <div class="login-signup">
+            <span class="text"
+              >Not a member?
+              <a href="#" class="text login-link">Signup now</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav aria-label="Page navigation example">
+      <ul class="pagination">
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+          </a>
+        </li>
+        <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+        <li class="page-item">
+          <a class="page-link" href="login_singup.html">2</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="contact.html">3</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Js Files -->
+    <script src="assets/js/libs/jq3.5.1.js"></script>
+    <script src="assets/js/libs/popper.js"></script>
+    <script src="assets/js/libs/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/changeBg.js"></script>
+    <script src="assets/js/AutoWriting.js"></script>
+  </body>
+</html>
